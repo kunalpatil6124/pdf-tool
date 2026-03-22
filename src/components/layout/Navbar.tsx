@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16 items-center">
           <Link href="/" className="flex items-center space-x-2 text-primary hover:opacity-90 transition-opacity">
             <Layers className="w-8 h-8" />
-            <span className="font-bold text-xl tracking-tight">PDFlnx</span>
+            <span className="font-bold text-xl tracking-tight">PDFlynx</span>
           </Link>
           <div className="hidden sm:flex space-x-6">
             <Link href="/merge-pdf" className="text-slate-600 hover:text-primary font-medium text-sm transition-colors">Merge PDF</Link>
