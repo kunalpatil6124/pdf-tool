@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <footer className="footer py-6 text-center text-sm text-slate-500 border-t border-slate-200 mt-auto">
           <p>&copy; {new Date().getFullYear()} PDF Tools App. All rights reserved.</p>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
